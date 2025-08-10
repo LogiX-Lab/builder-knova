@@ -10,41 +10,42 @@
   */
   :root {
     --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    --foreground: 210 24% 16%;
 
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card-foreground: 210 24% 16%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 210 24% 16%;
 
-    --primary: 264 83% 57%;
+    --primary: 220 91% 54%;
     --primary-foreground: 0 0% 100%;
 
     --secondary: 220 14% 96%;
-    --secondary-foreground: 220 9% 46%;
+    --secondary-foreground: 210 24% 16%;
 
-    --muted: 220 14% 96%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 210 14% 97%;
+    --muted-foreground: 210 12% 47%;
 
-    --accent: 220 14% 96%;
-    --accent-foreground: 220 9% 46%;
+    --accent: 210 14% 97%;
+    --accent-foreground: 210 24% 16%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
     --border: 214.3 31.8% 91.4%;
     --input: 214.3 31.8% 91.4%;
-    --ring: 264 83% 57%;
+    --ring: 220 91% 54%;
 
-    /* Knova Brand Colors */
-    --knova-primary: 264 83% 57%;
-    --knova-secondary: 197 100% 63%;
-    --knova-accent: 276 100% 99%;
+    /* Knova Brand Colors - Clever-inspired */
+    --knova-primary: 220 91% 54%;
+    --knova-secondary: 196 100% 47%;
+    --knova-accent: 210 40% 98%;
     --knova-blue: 220 91% 54%;
-    --knova-purple: 264 83% 57%;
+    --knova-light-blue: 204 100% 97%;
     --knova-orange: 25 95% 53%;
-    --knova-green: 142 76% 36%;
+    --knova-green: 142 71% 45%;
+    --knova-dark: 210 24% 16%;
 
     --radius: 0.5rem;
 
@@ -66,16 +67,16 @@
   }
 
   .dark {
-    --background: 222.2 84% 4.9%;
+    --background: 210 24% 16%;
     --foreground: 210 40% 98%;
 
-    --card: 222.2 84% 4.9%;
+    --card: 217.2 32.6% 17.5%;
     --card-foreground: 210 40% 98%;
 
-    --popover: 222.2 84% 4.9%;
+    --popover: 217.2 32.6% 17.5%;
     --popover-foreground: 210 40% 98%;
 
-    --primary: 264 83% 57%;
+    --primary: 220 91% 54%;
     --primary-foreground: 0 0% 100%;
 
     --secondary: 217.2 32.6% 17.5%;
@@ -92,16 +93,17 @@
 
     --border: 217.2 32.6% 17.5%;
     --input: 217.2 32.6% 17.5%;
-    --ring: 264 83% 57%;
+    --ring: 220 91% 54%;
 
     /* Knova Brand Colors - Dark Mode */
-    --knova-primary: 264 83% 57%;
-    --knova-secondary: 197 100% 63%;
-    --knova-accent: 276 100% 99%;
+    --knova-primary: 220 91% 54%;
+    --knova-secondary: 196 100% 47%;
+    --knova-accent: 210 40% 98%;
     --knova-blue: 220 91% 54%;
-    --knova-purple: 264 83% 57%;
+    --knova-light-blue: 204 100% 97%;
     --knova-orange: 25 95% 53%;
-    --knova-green: 142 76% 36%;
+    --knova-green: 142 71% 45%;
+    --knova-dark: 210 24% 16%;
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
     --sidebar-primary: 224.3 76.3% 48%;

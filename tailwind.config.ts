@@ -62,9 +62,10 @@ export default {
           secondary: "hsl(var(--knova-secondary))",
           accent: "hsl(var(--knova-accent))",
           blue: "hsl(var(--knova-blue))",
-          purple: "hsl(var(--knova-purple))",
+          "light-blue": "hsl(var(--knova-light-blue))",
           orange: "hsl(var(--knova-orange))",
           green: "hsl(var(--knova-green))",
+          dark: "hsl(var(--knova-dark))",
         },
       },
       borderRadius: {
