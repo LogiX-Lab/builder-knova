@@ -1,6 +1,12 @@
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
 import { ArrowLeft, Sparkles, MessageSquare } from "lucide-react";
 
 interface PlaceholderPageProps {
@@ -8,7 +14,10 @@ interface PlaceholderPageProps {
   description: string;
 }
 
-export default function PlaceholderPage({ title, description }: PlaceholderPageProps) {
+export default function PlaceholderPage({
+  title,
+  description,
+}: PlaceholderPageProps) {
   return (
     <div className="min-h-screen bg-gradient-to-br from-knova-accent via-white to-blue-50">
       {/* Header */}
@@ -49,8 +58,9 @@ export default function PlaceholderPage({ title, description }: PlaceholderPageP
           </CardHeader>
           <CardContent className="text-center">
             <p className="text-gray-600 mb-8">
-              We're actively building this section of our platform. In the meantime, 
-              feel free to continue prompting me to add content to this page or explore other parts of Knova!
+              We're actively building this section of our platform. In the
+              meantime, feel free to continue prompting me to add content to
+              this page or explore other parts of Knova!
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button asChild>
